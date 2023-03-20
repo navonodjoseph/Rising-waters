@@ -29,7 +29,10 @@ These are the current endpoints for `/weather`.
 
 
 ### What I learned
-This project was completed as part of my Software Engineering course at General Assembly. It marked a couple important first in my development as a software engineer. Before this project, I had never made an Axios request. I ended up making two concurrent requests using an API key. It wasn't necessarily hard to do, but it did require me to loop through the dataset and build a corresponding model that seeded the data to MongoDB. 
+This project was completed as part of my Software Engineering course at General Assembly. It marked a couple important first in my development as a software engineer.
+
+#### Axios requests 
+I ended up making two concurrent requests using an API key. It wasn't necessarily hard to do, but it did require me to loop through the dataset and build a corresponding model that seeded the data to MongoDB. 
 ```
 async function seed() {
     await WeatherForecast.deleteMany({})
