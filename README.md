@@ -28,4 +28,34 @@ These are the current endpoints for `/weather`.
 | /weather/date | /day | GET    | forecast on specific day |
 
 
+### What I learned
+This project was completed as part of my Software Engineering course at General Assembly. It marked a couple important first in my development as a software engineer. Before this project, I had never made an Axios request. I ended up making two concurrent requests using an API key. It wasn't necessarily hard to do, but it did require me to loop through the dataset and build a corresponding model that seeded the data to MongoDB. 
+```
+async function seed() {
+    await WeatherForecast.deleteMany({})
+    await Train.deleteMany({})
 
+    axios.get(url)
+        .then((result) => {
+            //console.log(result.data.properties.periods); 
+            let resultData = result.data.properties.periods
+            //   console.log(result.data.results.length)
+            for (let i = 0; i < resultData.length; i++) {
+                console.log(resultData.length)
+                WeatherForecast.create({
+                    name: resultData[i].name,
+                    startTime: resultData[i].startTime,
+                    isDayTime: resultData[i].isDayTime,
+                    temperatureUnit: resultData[i].temperatureUnit,
+                    detailedForecast: resultData[i].detailedForecast
+                })
+            }
+        }).catch((err) => {
+            console.log(err)
+        })
+        ...
+```
+#### Error handling and asynchronous code 
+This is also my first project where I used `async` `await`, and `catch` which helped me log errors and work through some of the issues I had creating a correct path with the MBTA dataset. 
+* improving my ability to read documentation 
+* error handling 
