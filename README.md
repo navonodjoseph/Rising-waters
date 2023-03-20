@@ -2,7 +2,7 @@
 The city of Boston has a well-documented API for its public transporatation, including up-to-date information on transportation alerts. 
 
 ## Summary: 
-I choose this project because I wanted to work with a well-documented API that provided real-time updates with a dataset that I wan not familiar with before the project.
+I choose this project because I wanted to work with a well-documented API that provided real-time updates with a complex dataset. The [MBTA V3 API provides](https://www.mbta.com/developers/v3-api)real-time information to schedules, alerts. You can also call train/bus predictions, find parking lots, bike racks, and even escalators.
 
 ### Boston transportation
 This is also the first ever API I've built, and I'm proud of the breadth of data I was able to work with. The MBTA has dozens (likely hundreds) of data end-points. After reading more about the dataset on the [City's Swagger page](https://api-v3.mbta.com/docs/swagger/index.html#/Alert/ApiWeb_AlertController_index), I realized that the `/alerts` endpoint would come with challenges, specifically finding how to build the correct path to get a general alert. After some trial and error, I was able to generate out the correct path for my purposes. 
