@@ -17,11 +17,11 @@ These are the current endpoints for `/trains`.
 | /trains/id | /id  | DELETE | delete transportation alert           |
 
 
-### Weather (`Weather`)
+### Weather (`/weather`)
 The other data component the weather API from the [National Weather Service](https://www.weather.gov/documentation/services-web-api) to get an API that highlights up-to-date and weather alerts for Boston. 
 
 ### Weather Endpoints
-These are the current endpoints for weather
+These are the current endpoints for `/weather`.
 |  URL          | PATH | METHOD | DESCRIPTION              |
 |---------------|------|--------|--------------------------|
 | /weather      | /    | GET    | lists 7-day forecast     |
