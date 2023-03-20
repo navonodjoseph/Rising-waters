@@ -59,6 +59,13 @@ async function seed() {
         ...
 ```
 #### Error handling and asynchronous code 
-This is also my first project where I used `async` `await`, and `catch` which helped me log errors and work through some of the issues I had creating a correct path with the MBTA dataset. 
-* improving my ability to read documentation 
-* error handling 
+This is also my first project where I used `async` `await`, and `catch` which helped me log errors and work through some of the issues I had debugging and knowing where my issues were. I'm just scratching the surface with error-handling, but I realize now how essential it is to building an application. 
+
+
+#### Improving my ability to read documentation 
+At this point in my development, I've begun to rely more on documentation to understand key concepts of Node.js, Express, and Mongoose. I think this project marked a transition away from youTube videos (which are still great) and more toward the documentation.
+
+### Possible next steps
+There is so much more to do with this project. I could see further exploring the MBTA V3 API to make the database more useful. Adding the prediction feature or even plotting the parking lots in the city would add to my projects utility and meaning. 
+
+Another possible route would be to explore historical transporatation trends. The MBTA also has a large dataset that charts the usage of specific lines dating back to 2016. I could find a way to chart this information to illustrate greater trends about the evolution of transporatation in Boston.  
