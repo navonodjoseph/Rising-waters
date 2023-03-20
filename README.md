@@ -1,7 +1,6 @@
 # Boston Transporation API 
 The city of Boston has a well-documented API for its public transporatation, including up-to-date information on transportation alerts. For my first API project, I decided to dig into this dataset using Express, MongoDB, and Postman. 
 
-## Summary: 
 I choose this project because I wanted to work with a well-documented API that provided real-time updates with a complex dataset. The [MBTA V3 API](https://www.mbta.com/developers/v3-api) provides live bus and train schedules. You can also call train/bus predictions, find parking lots, bike racks, or see a comprehensive list of road alerts. Even escalator information is available here. 
 
 ### Boston transportation (`/trains`)
