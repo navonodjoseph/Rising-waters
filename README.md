@@ -1,5 +1,5 @@
 # Transporatation and weather alerts
-The city of Boston has a well-documented API for its public transporatation, including up-to-date information on transportation alerts. 
+The city of Boston has a well-documented API for its public transporatation, including up-to-date information on transportation alerts. For my first API project, I decided to dig into this dataset. 
 
 ## Summary: 
 I choose this project because I wanted to work with a well-documented API that provided real-time updates with a complex dataset. The [MBTA V3 API](https://www.mbta.com/developers/v3-api) provides real-time information to schedules and alerts. You can also call train/bus predictions, find parking lots, and bike racks. Even escalator information is available here. 
