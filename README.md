@@ -1,4 +1,4 @@
-# Transporatation and weather alerts
+# Boston Transporation API 
 The city of Boston has a well-documented API for its public transporatation, including up-to-date information on transportation alerts. For my first API project, I decided to dig into this dataset using Express, MongoDB, and Postman. 
 
 ## Summary: 
