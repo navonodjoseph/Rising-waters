@@ -16,3 +16,12 @@ The other data component the weather API from the [National Weather Service](htt
 |---------------|------|--------|--------------------------|
 | /weather      | /    | GET    | lists 7-day forecast     |
 | /weather/date | /day | GET    | forecast on specific day |
+
+
+### Transportation Endpoints
+|  URL       | PATH | METHOD | DESCRIPTION                           |
+|------------|------|--------|---------------------------------------|
+| /trains    | /    | GET    | lists city-wide transportation alerts |
+| /trains/id | /id  | GET    | alert for specific dataset            |
+| /trains    | /    | POST   | update/create transportation alert    |
+| /trains/id | /id  | DELETE | delete transportation alert           |
